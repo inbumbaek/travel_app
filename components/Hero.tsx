@@ -1,4 +1,5 @@
-import React from 'react'
+import Button from './Button'
+import Image from 'next/image'
 
 const Hero = () => {
   return (
@@ -35,6 +36,14 @@ const Hero = () => {
             198k
             <span className="regular-16 lg:regular-20 ml-1">Excellent Reviews</span>
           </p>
+        </div>
+
+        <div className="flex flex-col w-full gap-3 sm:flex-row">
+        <Button 
+            type="button" 
+            title="Download App" 
+            variant="btn_green" 
+          />
         </div>
       </div>
     </section>
