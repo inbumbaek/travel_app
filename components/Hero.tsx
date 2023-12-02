@@ -62,6 +62,12 @@ const Hero = () => {
             </div>
             <p className="bold-20 text-white">Aguas Calientes</p>
           </div>
+
+          <div className="flexBetween">
+            <div className="flex flex-col">
+              <p className="regular-16 block text-gray-20">Distance</p>
+              <p className="bold-20 text-white">173.28 mi</p>
+            </div>
         </div>
       </div>
     </section>
