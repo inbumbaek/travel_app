@@ -1,4 +1,4 @@
-
+import { PEOPLE_URL } from "@/constants";
 import Image from "next/image";
 
 interface CampProps {
@@ -39,6 +39,7 @@ const CampSite = ({ backgroundImage, title, subtitle, peopleJoined }: CampProps)
               />
             ))}
           </span>
+          <p className="bold-16 md:bold-20 text-white">{peopleJoined}</p>
         </div>
       </div>
     </div>
