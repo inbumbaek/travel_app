@@ -42,6 +42,7 @@ const Guide = () => {
 
             <div className='flex w-full flex-col'>
               <p className="regular-16 text-gray-20">Start track</p>
+              <h4 className="bold-20 mt-2 whitespace-nowrap">Wonorejo Pasuruan</h4>
             </div>
           </div>
         </div>
