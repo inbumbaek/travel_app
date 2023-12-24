@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 const Features = () => {
@@ -23,6 +24,7 @@ const Features = () => {
               height={50}
               className="absolute left-[-5px] top-[-28px] w-10 lg:w-[50px]"
               />
+              <h2 className="bold-40 lg:bold-64">Our Features</h2>
           </div>
         </div>
       </div>
