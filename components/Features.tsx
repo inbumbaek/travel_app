@@ -43,4 +43,10 @@ const Features = () => {
   )
 }
 
+type FeatureItem = {
+  title: string;
+  icon: string;
+  description: string;
+}
+
 export default Features
