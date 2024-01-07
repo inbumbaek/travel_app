@@ -1,4 +1,4 @@
-import { FOOTER_CONTACT_INFO, FOOTER_LINKS } from '@/constants'
+import { FOOTER_CONTACT_INFO, FOOTER_LINKS, SOCIALS } from '@/constants'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
@@ -41,6 +41,15 @@ const Footer = () => {
                   </Link>
                 ))}
               </FooterColumn>
+            </div>
+
+            <div className="flex flex-col gap-5">
+              <FooterColumn title={SOCIALS.title}>
+                <ul className="regular-14 flex gap-4 text-gray-30">
+                  
+                </ul>
+              </FooterColumn>
+
             </div>
 
           </div>
